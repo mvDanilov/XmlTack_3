@@ -42,43 +42,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link EmployeeType }
-     * 
-     */
-    public EmployeeType createEmployeeType() {
-        return new EmployeeType();
-    }
-
-    /**
      * Create an instance of {@link OrderType }
      * 
      */
     public OrderType createOrderType() {
         return new OrderType();
-    }
-
-    /**
-     * Create an instance of {@link AddressType }
-     * 
-     */
-    public AddressType createAddressType() {
-        return new AddressType();
-    }
-
-    /**
-     * Create an instance of {@link EmployeesType }
-     * 
-     */
-    public EmployeesType createEmployeesType() {
-        return new EmployeesType();
-    }
-
-    /**
-     * Create an instance of {@link FullNameType }
-     * 
-     */
-    public FullNameType createFullNameType() {
-        return new FullNameType();
     }
 
     /**
@@ -95,6 +63,38 @@ public class ObjectFactory {
      */
     public ClientType createClientType() {
         return new ClientType();
+    }
+
+    /**
+     * Create an instance of {@link FullNameType }
+     * 
+     */
+    public FullNameType createFullNameType() {
+        return new FullNameType();
+    }
+
+    /**
+     * Create an instance of {@link EmployeeType }
+     * 
+     */
+    public EmployeeType createEmployeeType() {
+        return new EmployeeType();
+    }
+
+    /**
+     * Create an instance of {@link AddressType }
+     * 
+     */
+    public AddressType createAddressType() {
+        return new AddressType();
+    }
+
+    /**
+     * Create an instance of {@link EmployeesType }
+     * 
+     */
+    public EmployeesType createEmployeesType() {
+        return new EmployeesType();
     }
 
     /**

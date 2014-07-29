@@ -18,9 +18,9 @@ import javax.xml.bind.annotation.XmlType;
  * &lt;complexType name="clientsType">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="client" type="{http://www.example.com/abonent}clientType" maxOccurs="unbounded" minOccurs="0"/>
- *       &lt;/sequence>
+ *       &lt;choice maxOccurs="unbounded" minOccurs="0">
+ *         &lt;element name="client" type="{http://www.example.com/abonent}clientType"/>
+ *       &lt;/choice>
  *     &lt;/restriction>
  *   &lt;/complexContent>
  * &lt;/complexType>

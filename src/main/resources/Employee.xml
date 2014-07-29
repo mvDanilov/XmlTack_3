@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ab.abonent xmlns="http://www.example.com/abonent"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://www.example.com/corporation Abonent.xsd">
+            xsi:schemaLocation="http://www.example.com/corporation Employee.xsd">
     <employees>
         <employee id="011">
             <fullName>
